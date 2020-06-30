@@ -11,9 +11,7 @@ jobs:
           steps:
             - run: npm install
             - run: npm test
-     - test:
-         override:    
-            - mocha
+    
 
 
 workflows:
